@@ -1,9 +1,8 @@
-import Drop from "./Drop"
+import Drop from "./Drop";
 function App() {
   return (
-    <div >
-      <Drop/> 
-      <p></p>
+    <div>
+      <Drop />
     </div>
   );
 }
