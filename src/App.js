@@ -3,6 +3,7 @@ function App() {
   return (
     <div >
       <Drop/> 
+      <p></p>
     </div>
   );
 }
