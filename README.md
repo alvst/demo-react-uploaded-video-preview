@@ -4,9 +4,18 @@ A sample project demoing [Video Upload React Preview](https://github.com/alvst/r
 
 ## Installation
 
-You can clone this project to test it and try out alternatives:
+Install from NPM
+
 ```
-git clone https://github.com/alvst/demo-react-uploaded-video-preview.git
+npm i react-video-upload-preview
+```
+
+OR
+
+Install from Github: In your project's src directory, you can run:
+
+```
+git clone https://github.com/alvst/react-uploaded-video-preview.git
 ```
 
 ### Usage
@@ -16,14 +25,15 @@ import FileThumbnail from "react-uploaded-video-preview";
 ...
 <FileThumbnail
     file={file}
+    // Optional:
     startTime={3000}
     canvasSize={900}
     startTimeFail={2}
     finalFail={"end"}
     DefaultFailedOrientation={"Horizontal"}
     altText={"Custom Alt Text for screen readers"}
-    // CustomFailedFileImageHorizontal={CustomFailedHorizontal}
-    // CustomFailedFileImageVertical={CustomFailedVertical}
+    CustomFailedFileImageHorizontal={CustomFailedHorizontal}
+    CustomFailedFileImageVertical={CustomFailedVertical}
     />
 ```
 
